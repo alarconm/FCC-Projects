@@ -1,0 +1,13 @@
+$(document).ready(function() {
+ 
+    $.ajax({
+  url: 'https://en.wikipedia.org/w/api.php?action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=json',
+  data: { action: 'wbgetentities', ids: mw.config.get('wgWikibaseItemId'), format: 'json' },
+  dataType: 'jsonp',
+  success: function (x) {
+    var link = document.createElement('x');
+      $("#results").html(x.);
+  }
+});
+
+});
