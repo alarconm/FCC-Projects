@@ -1,8 +1,11 @@
 body {
-    background-color: lavender;
+    background-color: lightgrey;
     color: darkslategrey;
 }
 #center {
     padding-top: 100px;
 }
 
+#formInput {
+    padding-top: 100px;
+}
