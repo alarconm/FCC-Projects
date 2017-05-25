@@ -29,4 +29,13 @@ $(document).ready(function (){
         breakLength.plus();
         $("#breakTimer").html(breakLength.count);
     });
+    $("#sessionminus").on("click", function(){
+        sessionLength.minus();
+        $("#sessionTimer").html(sessionLength.count);
+
+    });
+    $("#sessionplus").on("click", function(){
+        sessionLength.plus();
+        $("#sessionTimer").html(sessionLength.count);
+    });
 });
